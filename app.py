@@ -239,7 +239,11 @@ from config.settings import Settings
 from evaluation.evaluation_dashboard import show_evaluation
 
 import time
-
+st.set_page_config(
+    page_title="LexRAG",
+    page_icon="⚖️",
+    layout="wide"
+)
 def stream_response(text):
     """Stream text while preserving formatting"""
     lines = text.split("\n")
