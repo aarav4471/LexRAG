@@ -1,0 +1,15 @@
+streamlit
+langchain
+chromadb
+groq
+neo4j
+python-dotenv
+pytesseract
+Pillow
+pypdf
+regex
+scikit-learn
+networkx
+torch
+transformers
+sentence-transformers
