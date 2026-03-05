@@ -1,0 +1,47 @@
+```
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+.env/
+
+# Environment Variables
+.env
+
+# Streamlit
+.streamlit/
+
+# MacOS
+.DS_Store
+
+# Vector Database
+chroma_db/
+
+# Logs
+*.log
+
+# Temporary files
+tmp/
+temp/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model caches
+.cache/
+huggingface/
+
+# Uploaded files
+uploads/
+
+# OCR temp files
+ocr_output/
+
+# IDE files
+.vscode/
+.idea/
+```
