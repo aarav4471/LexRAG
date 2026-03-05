@@ -13,3 +13,6 @@ networkx
 torch
 transformers
 sentence-transformers
+langchain-community
+langchain-chroma
+numpy
