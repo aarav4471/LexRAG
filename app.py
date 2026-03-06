@@ -432,8 +432,8 @@ with tab1:
 
                 similarity = max(0.0, min(1.0, 1 - score))
 
-                if similarity >= 0.2:
-                    filtered_docs.append((doc, similarity))
+                if similarity >= 0.05 or len(filtered_docs) == 0:
+                    filtered_docs.append((doc, score))
 
             structured_cases = []
 
