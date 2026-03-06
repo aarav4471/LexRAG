@@ -286,6 +286,8 @@ image_processor = st.session_state.image_processor
 # Sidebar
 # ------------------------------
 
+
+
 st.sidebar.header("📂 Upload Legal Documents")
 
 uploaded_files = st.sidebar.file_uploader(
@@ -307,8 +309,10 @@ if uploaded_files:
                     text = PDFParser.extract_text(file_path)
 
                 else:
+                    image_processor = ImageProcessor()
                     result = image_processor.process(file_path)
                     text = result["text"]
+                    image_embedding = result["embedding"]
 
                 text = Helpers.clean_text(text)
 
